@@ -41,3 +41,31 @@
   display: left !important;
   align-items: flex-end;
 }
+ol ul {
+  list-style: none;
+    }
+   
+    .nav{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .nav-items{
+      list-style: none;
+      display: flex;
+      float: right !important;
+      
+    }
+    .nav-items> li{
+      padding: 15px 40px;
+      margin: 5px 5px opx;
+    }
+
+    .body{
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+  }
+  .footer{
+      margin-top: auto;
+  }
