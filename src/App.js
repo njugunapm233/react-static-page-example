@@ -1,17 +1,19 @@
 
 import './App.css';
 
-import Header from './Header';
-import MainContent from './MainContent';
+import Navbar from './components/Navbar'
+
+import Main from './components/Main';
+
 import Footer from './Footer';
 
 
 
 function App() {
   return (
-    <div className="text-center fst-italic">
-  <Header/>
-    <MainContent/>
+    <div className="container">
+  <Navbar/>
+    <Main/>
  <Footer/>
   </div>
  

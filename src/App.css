@@ -44,7 +44,11 @@
 ol ul {
   list-style: none;
     }
-   
+
+/* .container{
+  display: flex;
+} */
+  
     .nav{
       display: flex;
       justify-content: space-between;
