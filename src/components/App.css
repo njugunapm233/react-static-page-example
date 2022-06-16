@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Inter,sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-header{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    height: 90px;
+    padding: 30px 15px;
+    background-color: #1f1e1e;
+}
+
+.nav-header>h3{
+    margin-right: auto;
+}
+
+.nav-title{
+    color: antiquewhite;
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(31, 29, 29);
+  color: white;
+  text-align: center;
+    /* margin-top: auto; */
+}
+
